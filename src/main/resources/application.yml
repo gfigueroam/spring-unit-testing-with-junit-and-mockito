@@ -1,0 +1,10 @@
+management:
+  security:
+    enabled: false
+---
+spring:
+  profiles: dev
+  server:
+    port: 8093
+
+---
